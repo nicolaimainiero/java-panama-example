@@ -139,8 +139,11 @@ java --add-modules jdk.incubator.foreign \
 ## Fazit
 Die verbesserte Integration führt zu einer sehr vereinfachten Interaktion zwischen Java und nativen Code. Das Kommandozeilenwerkzeug jextract übernimmt die aufwendige Konfiguration, wie das Laden der Bibliothek und das Definieren von Methoden-Stubs. Das ermöglicht die schnelle Integration von bestehenden Bibliotheken, wie z.B. Treiber, um auf deren Funktionalität zurückzugreifen oder die Implementierung besonders performancekritischer Teile in einer hardwarenahen Sprache.
 
+Den Quellcode für dieses Beispiel findet sich unter [^4].
+
 ## Referenzen
 
 [^1]: 	[Project Panama Early-Access Builds](https://jdk.java.net/panama/)
 [^2]: 	[The Software Development Kit Manager](https://sdkman.io/)
 [^3]: 	[Rust - Getting started](https://www.rust-lang.org/learn/get-started)
+[^4]:   [Quellcode](https://github.com/nicolaimainiero/java-panama-example)
